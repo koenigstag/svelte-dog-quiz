@@ -10,8 +10,8 @@
 	export let data: PageData;
 
 	let langData: Lang;
-	langData = getLangData<Lang>(data, (lang) => {
-		langData = data.langs[lang];
+	langData = getLangData<Lang>(data, (newLangData) => {
+		langData = newLangData;
 	});
 
 	let started = false;
