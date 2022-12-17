@@ -1,0 +1,26 @@
+{
+	"en": {
+		"pageTitle": "Dog Breeds Test",
+		"question": "What breed is this dog?",
+		"answer": "Answer",
+		"correct": "Correct!",
+		"wrong": "Wrong!",
+		"correctAnswerIs": "Correct answer is",
+		"yourGuessIs": "Your guess is",
+		"clickToStart": "Click to start",
+		"startRound": "Start Round",
+		"nextRound": "Next Round"
+	},
+	"ru": {
+		"pageTitle": "Тест на знание пород собак",
+		"question": "Какая порода собаки на фотографии?",
+		"answer": "Ответ",
+		"correct": "Верно!",
+		"wrong": "Неверно!",
+		"correctAnswerIs": "Правильный ответ",
+		"yourGuessIs": "Ваш ответ",
+		"clickToStart": "Нажмите, чтобы начать",
+		"startRound": "Начать раунд",
+		"nextRound": "Следующий раунд"
+	}
+}
