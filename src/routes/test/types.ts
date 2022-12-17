@@ -26,4 +26,5 @@ export type Lang = {
 	clickToStart: string;
 	startRound: string;
 	nextRound: string;
+	hint: string;
 };

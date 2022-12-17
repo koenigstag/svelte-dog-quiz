@@ -9,7 +9,8 @@
 		"yourGuessIs": "Your guess is",
 		"clickToStart": "Click to start",
 		"startRound": "Start Round",
-		"nextRound": "Next Round"
+		"nextRound": "Next Round",
+		"hint": "Hint"
 	},
 	"ru": {
 		"pageTitle": "Тест на знание пород собак",
@@ -21,6 +22,7 @@
 		"yourGuessIs": "Ваш ответ",
 		"clickToStart": "Нажмите, чтобы начать",
 		"startRound": "Начать раунд",
-		"nextRound": "Следующий раунд"
+		"nextRound": "Следующий раунд",
+		"hint": "Подсказка"
 	}
 }

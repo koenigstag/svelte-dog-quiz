@@ -16,6 +16,7 @@
 
 	let started = false;
 	let result: boolean | undefined = undefined;
+	let hint = false;
 
 	let imgSrc = '';
 	let breed = '';
@@ -27,6 +28,7 @@
 		imgSrc = '';
 		breed = '';
 		guess = '';
+		hint = false;
 	};
 
 	const startRound = async () => {
@@ -114,6 +116,14 @@
 				{/each}
 			</select>
 			<button on:click={makeGuess}>Select</button>
+		</div>
+		<div>
+			<button on:click={() => (hint = !hint)}>{langData.hint}</button>
+			<div>
+				{#if hint}
+					<div>{langData.hint}: <span>{capitalize(breed)}</span></div>
+				{/if}
+			</div>
 		</div>
 	{:else}
 		<div>
